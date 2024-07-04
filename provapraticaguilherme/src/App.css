@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(204, 204, 204);
+}
+
+.Clubs input{
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+header{
+  background-color: rgb(153, 153, 153);
+  display: flex;
+  justify-content: space-between;
+}
+
+.senailogo{
+  width: 250px;
+  height: 60px;
+}
+
+.Clubs-item {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.Clubs-info h2 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.Clubs-info p {
+  margin: 0;
+}
+
+@media only screen and (max-device-width: 900px) {
+  .Clubs { width:100%; }
+}
